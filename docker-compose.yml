@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  backend:
+    build: ./the_score_player_app
+    ports:
+      - "4000:4000"
+
+  frontend:
+    build: ./the-score-frontend-app
+    ports:
+      - "3000:3000"

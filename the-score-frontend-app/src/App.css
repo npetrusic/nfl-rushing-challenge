@@ -1,0 +1,50 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  margin: auto;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.control-button {
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.table button {
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.table {
+  width: 96%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 6px;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.row:nth-child(odd) {
+  background: #eee;
+}
